@@ -2,7 +2,7 @@
 
 An IoT-based distance monitoring system built with the Raspberry Pi Pico W, an HC-SR04 ultrasonic distance sensor, and an SSD1306 0.96" I2C OLED display. Real-time measurements are rendered locally on the OLED screen and periodically transmitted over Wi-Fi to a ThingSpeak cloud channel for logging and visualization.
 
-![Project Setup](assets/setup1.jpeg)
+![Project Setup](setup1.jpeg)
 
 ## Features
 - **Real-Time Distance Measurement:** Reads range data via HC-SR04 ultrasonic echo timing.
@@ -35,7 +35,7 @@ An IoT-based distance monitoring system built with the Raspberry Pi Pico W, an H
 ThingSpeak is used as the IoT cloud telemetry broker to store and graph distance measurements in real time. The Pico W transmits HTTP requests containing the calculated distance value to the configured channel every 15 seconds to adhere to free-tier rate limits
 | ThingSpeak Chart | Full System Setup |
 | :---: | :---: |
-| ![ThingSpeak Chart](assets/setup2.jpeg) | ![Full Setup](assets/setup3.jpeg) |
+| ![ThingSpeak Chart](setup2.jpeg) | ![Full Setup](setup3.jpeg) |
 
 ## Software & Setup
 1. Flash your Raspberry Pi Pico W with the latest [MicroPython firmware](https://micropython.org/download/RPI_PICO_W/).
